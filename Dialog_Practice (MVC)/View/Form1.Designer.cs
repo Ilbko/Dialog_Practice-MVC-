@@ -35,7 +35,11 @@ namespace Dialog_Practice__MVC_
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "Техстовик";
 
-            //this.Load += Form_Load;
+            button_open = new Button();
+            button_save = new Button();
+            button_color = new Button();
+
+            textbox = new TextBox();
         }
 
         Button button_save;
